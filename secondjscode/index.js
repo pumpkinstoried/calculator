@@ -1,12 +1,17 @@
-function addedToCart(){
-    alert("Added to cart");
-}
-function purchased(){
-    console.log('Loading...');
-    alert("Purchased!");
+const display = document.getElementById("display")
+
+function addToDisplay(input){
+    display.value += input;
 }
 
-let x = 1
+function clear(){
+    display.value = null
+}
+
+function calculate(){
+    display.value = eval(display.value)
+}
+
 
 
 
