@@ -4,12 +4,12 @@ function addToDisplay(input){
     display.value += input;
 }
 
-function clear(){
-    display.value = null
+function clearDisplay(){
+     display.value = "";
 }
 
 function calculate(){
-    display.value = eval(display.value)
+    display.value = eval(display.value);
 }
 
 
